@@ -6,7 +6,7 @@
 >因为 nums[0] + nums[1] = 2 + 7 = 9   
 >所以返回 [0, 1]
  
-* Code:[Solution.java](src\main\java\problems\two_sum\Solution.java)
+* Code:[Solution.java](src/main/java/problems/two_sum/Solution.java)
    
 * 暴力解法
 ```java

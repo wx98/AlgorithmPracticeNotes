@@ -7,7 +7,7 @@
 输出：7 -> 0 -> 8   
 原因：342 + 465 = 807   
 
-* Code:[Solution.java](problems\add_two_numbers\Solution.java)
+* Code:[Solution.java](src/main/java/problems/add_two_numbers/Solution.java)
 * ~~这个数据结构不是很熟悉啊-20200626~~
 ```java
 public class Solution {
