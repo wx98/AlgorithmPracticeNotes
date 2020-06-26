@@ -1,5 +1,11 @@
 # AlgorithmPracticeNotes
+##目录 
+* 点这个-> [Contents](Contents.md)
+## 说明
 * 本人刷算法题的笔记项目
 * 题目大多来源于 **[leetcode](https://leetcode.com/)**
-* 可能有参考价值，但不建作为标准学习
+* 代码可能有参考价值，但不建作为标准学习 ~~**自学野路子不值得参考**~~
+* language:java
+* java version:openjdk-14
 * 以上|･_･`)
+
