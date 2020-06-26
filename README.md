@@ -1,5 +1,5 @@
 # AlgorithmPracticeNotes
-##目录 
+## 目录 
 * 点这个-> [Contents](Contents.md)
 ## 说明
 * 本人刷算法题的笔记项目
@@ -8,4 +8,3 @@
 * language:java
 * java version:openjdk-14
 * 以上|･_･`)
-
