@@ -19,7 +19,23 @@
 
 * Code:[Solution.java](Solution.java)
    
-* 
+* 最优解
+```java
+public class Solution {
+    public int reverse(int x) {
+            long ans = 0;
+            while (x != 0) {
+                ans = ans * 10 + x % 10;
+                x /= 10;
+                if (-2147483648 > ans || ans > 2147483647){
+                    return 0;
+                }
+            }
+            return (int) ans;
+        }
+}
+```
+
 ```java
 public class Solution {
     public int reverse(int x) {
