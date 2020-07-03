@@ -8,3 +8,4 @@
 |4. 寻找两个正序数组的中位数 |[median-of-two-sorted-arrays](src/main/java/problems/median_of_two_sorted_arrays)|Y
 |5. 最长回文子串 |[longest-palindromic-substring](src/main/java/problems/longest_palindromic_substring)|Y
 |6. Z 字形变换|[zigzag-conversion](src/main/java/problems/zigzag_conversion)|
+|7. 整数反转|[reverse-intege](src/main/java/problems/reverse_integer)|
