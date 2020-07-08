@@ -31,6 +31,27 @@ public class Solution {
     }
 
 
+    /**
+     * 当初自己写的垃圾方法
+     * @param x
+     * @return
+     */
+    public int reverse2(int x) {
+        boolean flag = x < 0;
+        x = Math.abs(x);
+        StringBuilder ret = new StringBuilder(x + "");
+        ret.reverse();
+        if (flag) {
+            ret.insert(0, '-');
+        }
+        try {
+            x = Integer.parseInt(ret.toString());
+        } catch (Exception e) {
+            x = 0;
+        }
+        return x;
+    }
+
     public static void main(String[] args) {
         int nums = 1534236469;
         System.out.println(
