@@ -10,3 +10,4 @@
 |6. Z 字形变换|[zigzag-conversion](src/main/java/problems/zigzag_conversion)|
 |7. 整数反转|[reverse-intege](src/main/java/problems/reverse_integer)|
 |8. 字符串转换整数 (atoi)|[string-to-integer-atoi](src/main/java/problems/string_to_integer_atoi)|
+|9. 回文数|[palindrome-number](src/main/java/problems/palindrome_number)|
