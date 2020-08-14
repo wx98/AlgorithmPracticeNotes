@@ -66,8 +66,7 @@
     </tr>
     <tr>
         <td>14</td>
-        <td rowspan="12"></td>
-        <td rowspan="8"><a href="behavioralPatterns" title="src\main\java\designPattern\behavioralPatterns">行为型模式</a></td>
+        <td rowspan="12"><a href="behavioralPatterns" title="src\main\java\designPattern\behavioralPatterns">行为型模式</a></td>
         <td rowspan="12">这些设计模式特别关注对象之间的通信。</td>
         <td> 责任链模式（Chain of Responsibility Pattern）</td>
     </tr>
