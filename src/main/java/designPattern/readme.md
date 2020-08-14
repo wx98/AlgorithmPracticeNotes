@@ -16,7 +16,9 @@
     </tr>
     <tr>
         <td>2</td>
-        <td> 抽象工厂模式（AbstractFactory Pattern）</td>
+        <td>
+            <a href="creationalPatterns\abstractFactory" title="designPattern\creationalPatterns\abstractFactory">抽象工厂模式（AbstractFactory Pattern）</a>
+        </td>
     </tr>
     <tr>
         <td>3</td>
