@@ -3,9 +3,9 @@
 * 目录
 <table>
      <tr>
-        <td width="5%">序号</td>
+        <td width="10%">序号</td>
         <td width="15%">模式</td>
-        <td width="40%" >概述</td>
+        <td width="35%" >概述</td>
         <td width="40%" >设计模式</td>
     </tr>
     <tr>
