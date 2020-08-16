@@ -158,4 +158,4 @@ mobilePhone.shutDown();
 ```
 * 类图大概就是下面这个歌样子
 
-![工厂模式例子UML.png](/designPattern/img/工厂模式例子UML.png "工厂模式例子UML.pn")
+![工厂模式例子UML.png](../../img/工厂模式例子UML.png "工厂模式例子UML.png")	
