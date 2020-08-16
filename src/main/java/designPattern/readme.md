@@ -12,7 +12,9 @@
         <td>1</td>
         <td rowspan="5"><a href="creationalPatterns" title="src\main\java\designPattern\creationalPatterns">创建型模式</a></td>
         <td rowspan="5">这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。</td>
-        <td> 工厂模式（Factory Pattern）</td>
+        <td> 
+            <a href="creationalPatterns\factory">工厂模式（Factory Pattern）</a>
+        </td>
     </tr>
     <tr>
         <td>2</td>
@@ -22,15 +24,15 @@
     </tr>
     <tr>
         <td>3</td>
-        <td> 单例模式（Singleton Pattern）</td>
+        <td><a href="creationalPatterns\singleton">单例模式（Singleton Pattern）</a></td>
     </tr>
     <tr>
         <td>4</td>
-        <td> 建造者模式（Builder Pattern）</td>
+        <td> <a href="creationalPatterns\builder">建造者模式（Builder Pattern）</a> </td>
     </tr>
     <tr>
         <td>5</td>
-        <td> 原型模式（Prototype Pattern）</td>
+        <td> <a href="creationalPatterns\builder">原型模式（Prototype Pattern）></a></td>
     </tr>
     <tr>
         <td>6</td>

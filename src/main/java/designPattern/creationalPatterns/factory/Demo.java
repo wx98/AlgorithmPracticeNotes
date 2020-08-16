@@ -1,27 +1,35 @@
 package designPattern.creationalPatterns.factory;
 
-import designPattern.creationalPatterns.abstractFactory.shape.Shape;
+import designPattern.creationalPatterns.factory.firm.MobilePhone;
 
+/**
+ * 工厂模式的用户调用实例
+ */
 public class Demo {
-    public static void main(String[] args) {
-        ShapeFactory shapeFactory = new ShapeFactory();
 
-        //获取 Circle 的对象，并调用它的 draw 方法
-        Shape shape1 = shapeFactory.getShape("CIRCLE");
+    public static void main(String[] args) throws Exception {
+        //1.我们需要一个手机
+        MobilePhone mobilePhone;
 
-        //调用 Circle 的 draw 方法
-        shape1.draw();
+        //2，我们需要得到一个手机工厂才能得到手机
+        MobileFactory mobileFactory = new MobileFactory();
 
-        //获取 Rectangle 的对象，并调用它的 draw 方法
-        Shape shape2 = shapeFactory.getShape("RECTANGLE");
+        //3.然后我们可以通过型号买手机了
+        mobileFactory.BuyMobilePhone("MI6");
 
-        //调用 Rectangle 的 draw 方法
-        shape2.draw();
+        //4.比如我们购买MI6后用它打电话,拍照等
+        mobilePhone = mobileFactory.BuyMobilePhone("MI6");
+        mobilePhone.startUp();
+        mobilePhone.phone();
+        mobilePhone.photograph();
+        mobilePhone.shutDown();
 
-        //获取 Square 的对象，并调用它的 draw 方法
-        Shape shape3 = shapeFactory.getShape("SQUARE");
+        //或者我们得到一个MI10用MI10打电话,拍照等
+        mobilePhone = mobileFactory.BuyMobilePhone("MI10");
+        mobilePhone.startUp();
+        mobilePhone.phone();
+        mobilePhone.photograph();
+        mobilePhone.shutDown();
 
-        //调用 Square 的 draw 方法
-        shape3.draw();
     }
 }
