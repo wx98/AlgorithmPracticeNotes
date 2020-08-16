@@ -11,4 +11,4 @@
 
 # 附加内容
 * 学习设计模式的部分笔记也写在这里了
-* 点这个-> [designPattern](src\main\java\designPattern\readme.md)
+* 点这个-> [designPattern](src/main/java/designPattern/readme.md)
